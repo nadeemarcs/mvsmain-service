@@ -22,8 +22,8 @@ const config = {
   env: envVars.NODE_ENV,
   port: envVars.PORT,
   //mongoUri: "mongodb://root:root123@localhost:27017/ATSDBTEST",
-  mongoUri: "mongodb://localhost:27017/ATSDBTEST",
-
+ // mongoUri: "mongodb://localhost:27017/ATSDBTEST",
+ mongoUri: "mongodb://mvsatsmongo:6FshTcq823HUJ71uzQVcWl9RNS0EOudRRqxcv8yKhOPOlaBbnXn2F9sOgfJ9lNpzeh0eQkyuJHAnACDbL40luQ==@mvsatsmongo.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@mvsatsmongo@",
   // server : mongodb+srv://admin:<password>@cluster0.5zs0pnq.mongodb.net/?retryWrites=true&w=majority
 
   // mongoUri: "mongodb://34.131.93.79:27017/ATSDB",
