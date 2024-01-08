@@ -33,7 +33,9 @@ app.use(methodOverride());
 app.use(helmet());
 
 // enable CORS - Cross Origin Resource Sharing
-app.use(cors({ credentials: true }));
+//app.use(cors({ credentials: true }));
+app.use(cors());
+
 app.use((req, res, next)=>{
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods','GET,PUT,POST,DELETE,PATCH,OPTIONS');
