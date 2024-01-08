@@ -36,6 +36,9 @@ app.use(helmet());
 app.use(cors({ credentials: true }));
 app.use((req, res, next)=>{
   res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods','GET,PUT,POST,DELETE,PATCH,OPTIONS');
+  
+
   next();
 })
 
@@ -51,7 +54,7 @@ if (config.env === 'development') {
   }));
 }
 
-// mount all routes on /api path
+// mount all routes on /api path    
 app.use('/v1', routes);
 
 
