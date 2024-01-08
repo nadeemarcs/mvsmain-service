@@ -34,6 +34,9 @@ app.use(helmet());
 
 // enable CORS - Cross Origin Resource Sharing
 //app.use(cors({ credentials: true }));
+
+
+app.options('*', cors()) 
 app.use(cors());
 
 app.use((req, res, next)=>{
