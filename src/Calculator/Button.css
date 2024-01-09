@@ -1,0 +1,27 @@
+.calciButton{
+    border: none;
+    background-color:  rgb(94 114 159);
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    height: 32px;
+    width: 52px;
+  }
+  
+  .calciButton:hover {
+    background-color: rgb(61, 43, 184);
+  }
+  .calciButton:active {
+    background-color: grey;
+  }
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgb(243 61 29 / 76%);
+  }
+  
+  .equals:hover {
+    background-color: rgb(243 61 29 / 76%);
+  }

@@ -1,0 +1,28 @@
+.client
+  table.MuiTable-root
+  tbody.MuiTableBody-root
+  tr.MuiTableRow-root:nth-child(even) {
+  background: #fcf2f4;
+}
+.MuiTableCell-root {
+  font-size: 14px !important;
+}
+.MuiTableCell-sizeSmall {
+  padding: 2px 24px 2px 16px !important;
+}
+
+.MuiCardContent-root:last-child {
+  padding-bottom: 5px !important;
+}
+
+.MuiTableCell-paddingNone {
+  padding-left: 1rem !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #1a50a3 !important;
+}
+
+.MuiInput-underline.Mui-disabled:before {
+  border-bottom-style: solid !important;
+}

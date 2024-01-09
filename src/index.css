@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin: 50px;
+}
+.toright {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 40px;
+}
+
+.view {
+  border: 1px solid #183b5f;
+  border-radius: 50rem;
+  display: inline-block;
+  margin: auto 35px;
+  width: 70px;
+  text-align: center;
+}
+.Component-root-11 {
+  height: 330px;
+}

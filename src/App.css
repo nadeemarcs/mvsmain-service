@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.MuiFormControl-marginNormal {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.MuiInput-underline.Mui-disabled:before {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-jobopening {
+  text-align: center !important;
+  width: 80px;
+  font-size: 17px;
+}
+.more {
+  color: white !important;
+}
+/* .nav-jobopening:hover{
+  border: 1.5px solid #183b5f;
+  background-color: #183b5f;
+  color: #ffffff !important;
+  width: 80px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 160px;
+ } */
+.camera-border {
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  padding: 0px 11px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.Component-root-11 {
+  height: "360px" !important;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 16px !important;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.text-temp-blue {
+  color: #0e2c66;
+}
+
+.bg-temp-blue {
+  background-color: #0e2c66 !important;
+  color: white !important;
+}
+.back-button {
+  background-color: rgb(94, 114, 159);
+}
+.MuiInputLabel-animated {
+  color: gray !important;
+  font-size: 20px !important;
+}
+
+a {
+  text-decoration-line: none !important;
+}
+
+.MuiInputBase-input {
+  color: #0e2c66 !important;
+  font-weight: 500 !important;
+}
+
+.offcanvas-end {
+  width: 50% !important;
+}
+@media (max-width: 600px) {
+  .offcanvas-end {
+    width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .offcanvas-end {
+    width: 100% !important;
+  }
+}
+
+.MuiIconButton-colorInherit {
+  color: #0e2c66 !important;
+}
+
+.MTableToolbar-highlight-10 {
+  color: gray !important;
+}
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8ad;
+  z-index: 9999;
+}
+.loader {
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+  position: absolute;
+}

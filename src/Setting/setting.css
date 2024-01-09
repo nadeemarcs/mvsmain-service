@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile .personal_profile {
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+.emailSetting .email1 {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #00256f;
+  padding: 6px 58px;
+}
+.emailSetting .email2 {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #00256f;
+  padding: 6px 58px;
+}
+.emailSetting .email3 {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #00256f;
+  padding: 6px 58px;
+  margin-right: 65px;
+}
+
+.setting-Nav .MuiBox-root-9 {
+  padding: 0px;
+}
+.setting-Nav .MuiBox-root-19 {
+  padding: 2px;
+}
+.setting-Nav .jss9 {
+  padding: 2px;
+}
+.acessPage .user {
+  color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #08276f;
+  padding: 7px 51px;
+  border-radius: 10px 0px 0px 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+}
+.acessPage .securityControl {
+  width: 185px;
+  height: 22px;
+  left: 285px;
+  top: 190px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #7a7a7a;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 10px 10px 0px;
+  padding: 7px 21px;
+  border-left: 0px;
+}
+.alertHeading {
+  width: 237.99px;
+  height: 22px;
+  left: 113px;
+  top: 1352.14px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: #0a0a0a;
+}
+.user-grid .MuiToolbar-regular {
+  min-height: 0px;
+}
+.user-grid
+  table.MuiTable-root
+  tbody.MuiTableBody-root
+  tr.MuiTableRow-root:nth-child(even) {
+  background: #fcf2f4;
+}
+.user-grid .userName {
+  width: 127px;
+  height: 23px;
+  left: 700px;
+  top: 358px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+.user-detail {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.user-detail .administrator {
+  background: #ffffff;
+  border: 1px solid #13b049;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 86px;
+  height: 13px;
+  left: 832px;
+  top: 364px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #13b049;
+  padding: 3px 7px;
+  margin-left: 10px;
+}
+.user-detail .active {
+  background: #36db00;
+  border: 1px solid #00256f;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 43px;
+  height: 13px;
+  left: 931px;
+  top: 364px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #00256f;
+  padding: 3px 6px;
+  margin-left: 8px;
+}
+.interviewer {
+  margin-left: "220px";
+}
+.interviewer {
+  width: 204px;
+  height: 18px;
+  left: 700px;
+  top: 392px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0a0a0a;
+}
+.gmailStyle {
+  width: 204px;
+  height: 18px;
+  left: 700px;
+  top: 446px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+
+  color: #0a0a0a;
+}
+.phoneStyle {
+  width: 204px;
+  height: 18px;
+  left: 700px;
+  top: 476px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0a0a0a;
+}
+.Deactivate {
+  background: #ffffff;
+  border: 1px solid #00256f;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #00256f;
+  padding: 5px 35px;
+}
+
+.DeleteUser {
+  background: #00256f;
+
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 5px 12px;
+}
+.userList{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 22px;
+
+color: #0A0A0A
+}
+.addBox{
+    background: #00256F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color: white;
+padding: 10px 20px;
+}
+.topBar{
+    margin-top: 20px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(0, 0, 0);
+    width: 97.5%;
+    margin-left: 16px;
+}

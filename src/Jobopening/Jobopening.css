@@ -1,0 +1,10 @@
+.job-opening table.MuiTable-root tbody.MuiTableBody-root tr.MuiTableRow-root:nth-child(even) {
+    background: #FCF2F4;
+   
+}
+.job-opening .MuiTableCell-root {
+    padding: 4px;
+}
+.MuiCardContent-root:last-child {
+    padding-bottom: 5px !important;
+}
