@@ -1,6 +1,6 @@
 {
   "name": "mvsuimainui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "proxy": "https://mvsmain-serviceapp.azurewebsites.net/v1",
   "private": true,
   "dependencies": {
@@ -52,15 +52,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
