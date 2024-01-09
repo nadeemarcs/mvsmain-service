@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/1dd5f746-2821-4481-b8ed-f4e42af24f9e/resourceGroups/ResumeR/providers/Microsoft.Web/sites/mvsrez",
+    "appService.deploySubpath": "."
+}
