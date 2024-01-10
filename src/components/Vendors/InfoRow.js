@@ -27,7 +27,7 @@ import {
   TextField,
   Tooltip,
 } from "@material-ui/core";
-import Button from "@restart/ui/esm/Button";
+import Button from "@restart/ui/Button";
 import { FormGroup, FormSelect, Nav, Offcanvas } from "react-bootstrap";
 import FilterListIcon from '@material-ui/icons/FilterList';
 import { updateVendor } from "../../actions/vendor";

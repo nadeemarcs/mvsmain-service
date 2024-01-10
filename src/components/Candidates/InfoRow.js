@@ -28,7 +28,7 @@ import {
   FormSelect,
   Dropdown,
 } from "react-bootstrap";
-import Button from "@restart/ui/esm/Button";
+import Button from "@restart/ui/Button";
 import { TablePagination } from "@material-ui/core";
 
 import {
