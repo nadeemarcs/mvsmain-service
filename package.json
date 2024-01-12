@@ -1,7 +1,7 @@
 {
   "name": "mvsuimainui",
   "version": "0.1.2",
-  "proxy": "https://mvsmain-serviceapp.azurewebsites.net/v1",
+  "proxy": "https://mvsmain-serviceapp.azurewebsites.net/v1/",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
