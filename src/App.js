@@ -75,6 +75,7 @@ function App(props) {
         <Route exact path="/view">
           <View />
         </Route>
+        
         <Route exact path="/createjob">
           <Createjob />
         </Route>
