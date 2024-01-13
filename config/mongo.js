@@ -5,7 +5,7 @@ const logger = require('./logger')
 var mongoDB = config.mongoUri;
 var mongoDebug = config.mongoDebug;
 //mongoose.connect(mongoDB, { useNewUrlParser: true , useUnifiedTopology: true, authSource:'admin'});
-
+mongoose.set("strictQuery", false);
 mongoose.connect(mongoDB, { useNewUrlParser: true , useUnifiedTopology: true});
 
 // mongoose.set('useNewUrlParser', true);

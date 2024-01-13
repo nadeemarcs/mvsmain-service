@@ -26,6 +26,7 @@ exports.makeConnection = function(callback){
   console.log('Making mongo connection');
   getRequestString(function(requestString){
   console.log('request String: '+requestString);
+  mongoose.set("strictQuery", false);
     mongoose.connect(requestString, options, function(error,result) {
       if(error){
         console.log('MongoDB connection error : ');
